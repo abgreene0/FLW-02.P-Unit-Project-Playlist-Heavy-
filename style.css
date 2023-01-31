@@ -70,16 +70,33 @@ input {
 }
 
 button {
-  font-size: 14px;
-  padding: 5px 10px;
-  color: black;
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #092cb8;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f248c 2px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #a9e1f5;
+  background-image: -webkit-linear-gradient(top, #a9e1f5, #3498db);
+  background-image: -moz-linear-gradient(top, #a9e1f5, #3498db);
+  background-image: -ms-linear-gradient(top, #a9e1f5, #3498db);
+  background-image: -o-linear-gradient(top, #a9e1f5, #3498db);
+  background-image: linear-gradient(to bottom, #a9e1f5, #3498db);
+  text-decoration: none;
 }
 
 body {
-  background: url(https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg);
-color: white;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEWt2eZvScryAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=);
+color: black;
 }
 
 h4{
-  color: white;
+  color: black;
 }

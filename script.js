@@ -22,10 +22,10 @@ let displayLink = document.querySelector(".display-link");
 
 
 // task 7: create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
-let image = [ ]
-let songNames = [ ]
-let artist = [ ]
-let songLinks = [ ]
+let image = [ "265c395325f22e75d5e6c2f34ec770f2.png","artworks-bN8jtCyNwEIQxJy7-EBBoSQ-t500x500.jpg", "artworks-000641314855-o1r35r-t500x500.jpg","https://rnbmain-thisisrnb.netdna-ssl.com/wp-content/uploads/2018/04/Ella-Mai-Bood-Up-Vid.jpg" ]
+let songNames = ["After The Storm" , "Get Along Better","Session 32", "Boo'd Up "]
+let artist = [ "Kali Uchis"," Drake", "Summer Walker", "Ella Mai"]
+let songLinks = [ "https://www.youtube.com/watch?v=9f5zD7ZSNpQ", "https://www.youtube.com/watch?v=84y-jaEiFZU","https://www.youtube.com/watch?v=tyxJYWvQIbY","https://www.youtube.com/watch?v=6YNZlXfW6Ho"]
 
 
 
