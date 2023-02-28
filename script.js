@@ -73,20 +73,29 @@ function emptyDisplay() {
 function displaySongInfo() {
 
 // task 8: loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
-let song = ["After the storm", "Get Along Better", "Session 32", "Boo'd Up"];   
+ console.log("igothere2")
 songNames.forEach(function(song) {
 displaySong.insertAdjacentHTML("beforeend", "<p>" + song + "</p>");
+  console.log("igothere")
 });
 
-  let artist = ["Kali Uchis", "Drake", "Summer Walker", "Ella Mai"];   
+  
 artist.forEach(function(art) {
-displayArtist.insertAdjacentHTML("<p>" + art + "</p>");
+displayArtist.insertAdjacentHTML("beforeend", "<p>" + art + "</p>");
 });
 
-   let images = ["", "Drake", "Summer Walker", "Ella Mai"];   
+    
 imageList.forEach(function(source) {
-displayImage.insertAdjacentHTML("beforeend",`img src=${source}`);
+displayImage.insertAdjacentHTML("beforeend",`<img src=${source}/>`);
 });
+
+  songLinks.forEach(function(source){
+    displayLink.insertAdjacentHTML("beforeend","<a>" + link + "</a>"); 
+
+    
+  });
+
+  
 
 
 
